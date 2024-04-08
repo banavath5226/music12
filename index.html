@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+    <style>
+       .main{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:40px 20px;
+        text-align:center;
+       }
+       @media (min-width:769px){
+        one{
+            grid-template-columns: repeat(2,1fr);
+        }
+       }
+       @media (min-width:480px){
+        one{
+            grid-template-columns: repeat(2,1fr);
+        }
+       }
+        .one > desc{
+            text-align:center;
+            
+        }
+        button{
+        width:140px;
+        height:30px;
+        background:blue;
+        color:white;
+        border-style: none;
+        border-radius:10px;
+        cursor:pointer;
+        font-size:27px;
+        }
+        button:hover{
+            background:fuchsia;
+            color:black;
+        }
+        img{
+            border-radius:20px;
+        }
+    </style>
+</head>
+<body style="background-color:white">
+  
+  <h1 style="text-align:center;color:rgb(72, 0, 255);font-size:;">Where Words Fails , Music Speaks!</h1>
+    <div class="main">
+        <div class="one">
+            <a href="./Athadu.html"><img src="Athadu.jpg"height='100%' width="100%"/></a>
+            <div class="desc"><a href="./Athadu.html"><button>Play</button></a></div>
+          
+        </div>
+        <div class="one">
+            <a href="./krish.html"><img src="Krish.jpg"height='100%' width="100%"/></a>
+            <div class="desc"><a href="./krish.html"><button>Play</button></a></div>
+        </div>
+        <div class="one">
+            <a href="./Shanker_dada_Zindabad.html"><img src="Shanker.jpg"height='100%' width="100%"/></a>
+            <div class="desc"><a href="./Shanker_dada_Zindabad.html"><button>Play</button></a></div>
+        </div>
+        
+        <div class="one">
+          <a href="./surya.html"> <img src="Surya-S-o-.jpg"height='100%' width="100%"/></a>
+          <div class="desc"><a href="./surya.html"><button>Play</button></a></div>
+        </div>
+        <div class="one">
+            <a href="./Premikula_roju.html"><img src="Premikula.jpg"height='100%' width="100%"/></a>
+            <div class="desc"><a href="./Premikula_roju.html"><button>Play</button></a></div>
+        </div>
+        <div class="one">
+            <a href="./vasu.html"><img src="Vaasu.jpg"height='100%' width="100%"/></a>
+            <div class="desc"><a href="./vasu.html"><button>Play</button></a></div>
+        </div>
+
+    </div>
+</body>
+</html>
